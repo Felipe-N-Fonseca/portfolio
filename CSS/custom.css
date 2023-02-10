@@ -1,0 +1,17 @@
+body {
+    background: linear-gradient(160deg, #00BFFF,#fff) fixed;
+}
+
+.cabecalho {
+    background-color: aliceblue;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 20px;
+    min-width: 97%;
+}
+
+.cabecalho img{
+    max-width: 100%;
+    border-radius: 30px;
+    margin-left: -10px;
+}
