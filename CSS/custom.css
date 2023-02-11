@@ -2,7 +2,7 @@ body {
     background: linear-gradient(160deg, #00BFFF,#fff) fixed;
 }
 
-.cabecalho {
+.container {
     background-color: aliceblue;
     border-radius: 30px;
     padding: 20px;
@@ -17,7 +17,7 @@ body {
 }
 
 @media (max-width: 720px) {
-    .cabecalho {
+    .container {
         margin: 5px;
         padding: 10px;
         max-width: 92%;
