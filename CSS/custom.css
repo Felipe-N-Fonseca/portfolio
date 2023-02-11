@@ -21,15 +21,25 @@ body {
     margin-top: 10px;
 }
 
+.card {
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.card img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
 .rodape {
     background-color: aliceblue;
-    padding: 20px;
+    padding: 20px 20px 0;
     min-width: 100%;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
 
-.rodape a{
+a {
     color: black;
 }
 
@@ -40,6 +50,11 @@ body {
 .contato a img {
     max-width: 65px;
 }
+
+.feito {
+    margin-top: 10px;
+}
+
 
 @media (max-width: 720px) {
     .container {
