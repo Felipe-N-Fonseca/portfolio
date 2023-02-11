@@ -33,6 +33,13 @@ body {
     color: black;
 }
 
+.rodape a img {
+    max-width: 85px;
+}
+
+.contato a img {
+    max-width: 65px;
+}
 
 @media (max-width: 720px) {
     .container {
