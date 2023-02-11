@@ -16,10 +16,33 @@ body {
     margin-right: -10px;
 }
 
+.rodape {
+    background-color: aliceblue;
+    padding: 20px;
+    min-width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.rodape a{
+    color: black;
+}
+
+
 @media (max-width: 720px) {
     .container {
         margin: 5px;
         padding: 10px;
-        max-width: 92%;
+        max-width: 93%;
     }
 }
+
+/* tema escuro   
+
+body:
+    background: linear-gradient(160deg, #000,#555) fixed
+    
+container:
+    background-color: dimgray;
+    color: whitesmoke;
+*/
