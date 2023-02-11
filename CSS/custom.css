@@ -24,6 +24,7 @@ body {
 .card {
     border-radius: 20px;
     margin-bottom: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.384);
 }
 
 .card img {
@@ -55,6 +56,46 @@ a {
     margin-top: 10px;
 }
 
+.dark{
+    background: linear-gradient(160deg, #000,#555) fixed;
+}
+
+.dark a {
+    color: aliceblue;
+}
+
+.dark .container {
+    background-color: dimgray;
+    color: whitesmoke;
+}
+.dark .rodape {
+    background-color: dimgray;
+    color: whitesmoke;
+}
+.dark .card {
+    background-color: darkslategray;
+    color: whitesmoke;
+}
+.dark label {
+    background-color: black;
+}
+
+#tema {
+    opacity: 0;
+}
+
+label {
+    border: 1px solid black;
+    padding: 5px 40px;
+    border-radius: 20px;
+    background-color: floralwhite;
+}
+
+@media (min-width: 960px) {
+    label {
+        margin-left: 20px;
+    }
+}
 
 @media (max-width: 720px) {
     .container {
