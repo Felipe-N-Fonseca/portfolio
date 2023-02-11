@@ -91,27 +91,16 @@ label {
     background-color: floralwhite;
 }
 
-@media (min-width: 960px) {
-    label {
-        margin-left: 20px;
-    }
-}
 
 @media (max-width: 720px) {
     .container {
         margin: 5px;
         margin-bottom: 10px;
-        padding: 10px;
+        padding: 10px 15px;
         max-width: 93%;
     }
+    h1 {
+        max-width: 100%;
+        font-size: 2rem;
+    }
 }
-
-/* tema escuro   
-
-body:
-    background: linear-gradient(160deg, #000,#555) fixed
-    
-container:
-    background-color: dimgray;
-    color: whitesmoke;
-*/
